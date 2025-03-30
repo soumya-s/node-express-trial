@@ -36,11 +36,15 @@ function sortNumber(array){
 characterOccurence();
 getSubstring("soumya");
 
+
 const fruits = ["orange","mango","apple","grapes"];
 const numbers = [40, 100, 1, 5, 25, 10];
 console.log("Before sorting "+fruits);
 sortString(fruits);
 console.log("after sorting "+fruits);
+
+
+console.log("Reversing "+fruits.reverse());
 console.log("numbers before sorting "+numbers)
 sortNumber(numbers);
 console.log("Numbers after sorting "+numbers);
