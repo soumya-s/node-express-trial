@@ -30,3 +30,4 @@ file.readFile("readFiles.txt",function(err,data){
     }
     console.log("new data "+data);
 });
+ 
