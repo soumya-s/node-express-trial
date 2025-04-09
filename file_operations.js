@@ -24,7 +24,7 @@ file.writeFile("readFile.txt","write file",function(err){
     console.log("written successfully");
 });
 
-file.readFile("readFiles.txt",function(err,data){
+file.readFile("readFile.txt",'utf8',function(err,data){
     if(err){
         console.error(err);
     }
